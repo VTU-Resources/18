@@ -4,60 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>VTU Belgaum - How It Works</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-    }
     body {
       font-family: 'Inter', sans-serif;
       background-color: #eaf4f3;
       margin: 0;
-      padding: 0;
     }
     header {
       background: #ffffff;
-      padding: 10px 16px;
+      padding: 12px 20px;
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     }
     .brand-logo {
-      height: 38px;
+      height: 42px;
       margin-right: 10px;
     }
     .brand-name {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       font-weight: 700;
       color: #1a4d2e;
     }
     .section {
       background: #ffffff;
-      margin: 0 auto 30px;
-      padding: 24px 20px;
-      max-width: 620px;
-      border-radius: 18px;
-      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+      margin: 30px auto;
+      padding: 24px 16px;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     }
     h1 {
       text-align: center;
       color: #1a4d2e;
-      font-size: 1.75rem;
+      margin-bottom: 24px;
+      font-size: 1.8rem;
       font-weight: 700;
-      margin: 10px 0 24px;
     }
     details {
-      background: #f4fef7;
-      border: 1px solid #b6e5cd;
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 18px;
+      background: #f6fef9;
+      border: 1px solid #b0dec8;
+      border-radius: 14px;
+      padding: 18px 16px;
+      margin-bottom: 16px;
       cursor: pointer;
-      transition: 0.3s ease;
+      transition: all 0.3s ease;
     }
     details[open] {
-      background-color: #e7faf0;
+      background-color: #ecfbf1;
       border-color: #1a4d2e;
     }
     summary {
@@ -67,35 +63,33 @@
       outline: none;
     }
     .box-content {
-      margin-top: 14px;
-      font-size: 0.95rem;
-      line-height: 1.6;
+      margin-top: 12px;
     }
     .embed {
-      margin: 16px 0;
+      margin: 14px 0;
     }
     .price-box {
       background: #1a4d2e;
       color: white;
-      padding: 12px 16px;
+      padding: 14px;
       border-radius: 10px;
       font-size: 0.9rem;
       font-weight: 500;
       line-height: 1.6;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
     audio, video {
       width: 100%;
+      max-width: 100%;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     }
     @media (max-width: 480px) {
       .section {
-        margin: 0 12px 20px;
+        margin: 20px 12px;
         padding: 20px 14px;
       }
       h1 {
-        font-size: 1.45rem;
+        font-size: 1.5rem;
       }
       summary {
         font-size: 0.95rem;
@@ -110,12 +104,12 @@
   </header>
 
   <section class="section">
-    <h1>How It Works</h1>
+    <h1>How It Works?</h1>
 
     <details>
       <summary>🎙️ Only Giving Voice to Script</summary>
       <div class="box-content">
-        <p>Give your voice to our provided script. Just record and send it back. Simple, flexible and fast!</p>
+        <p>Give your voice to our provided script. Just record and send it back. Super simple and flexible!</p>
         <div class="embed">
           <audio controls>
             <source src="example-audio.mp3" type="audio/mpeg">
@@ -133,7 +127,7 @@
     <details>
       <summary>📝 Faceless Video with Voice (Book & Pen Teaching)</summary>
       <div class="box-content">
-        <p>Record your explanation using book and pen or digital writing tools. No need to show face.</p>
+        <p>Record your screen or setup using just book & pen while you explain concepts or solve problems.</p>
         <div class="embed">
           <video controls>
             <source src="example-faceless.mp4" type="video/mp4">
@@ -151,7 +145,7 @@
     <details>
       <summary>🎥 With Face Video with Voice (Board/Book Teaching)</summary>
       <div class="box-content">
-        <p>Use a whiteboard, textbook or notes to teach while recording yourself. Perfect for confident presenters.</p>
+        <p>Confident on camera? Use your whiteboard or notebook to teach while being visible – just like a classroom!</p>
         <div class="embed">
           <video controls>
             <source src="example-face.mp4" type="video/mp4">
@@ -168,5 +162,3 @@
   </section>
 </body>
 </html>
-
-
