@@ -77,11 +77,14 @@
       font-weight: 500;
       line-height: 1.6;
     }
-    audio, video {
+    audio, video, iframe {
       width: 100%;
       max-width: 100%;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    iframe {
+      height: 240px;
     }
     @media (max-width: 480px) {
       .section {
@@ -106,6 +109,7 @@
   <section class="section">
     <h1>How It Works?</h1>
 
+    <!-- First Box: Voice Only -->
     <details>
       <summary>🎙️ Only Giving Voice to Script</summary>
       <div class="box-content">
@@ -124,15 +128,13 @@
       </div>
     </details>
 
+    <!-- Second Box: Faceless Video -->
     <details>
       <summary>📝 Faceless Video with Voice (Book & Pen Teaching)</summary>
       <div class="box-content">
         <p>Record your screen or setup using just book & pen while you explain concepts or solve problems.</p>
         <div class="embed">
-          <video controls>
-            <source src="https://youtu.be/q16cK6D8JiE?si=z5Lhty5ZHIShQpJy" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <iframe src="https://www.youtube.com/embed/q16cK6D8JiE" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="price-box">
           ₹10/video – 4–5 min<br>
@@ -142,6 +144,7 @@
       </div>
     </details>
 
+    <!-- Third Box: Face Video -->
     <details>
       <summary>🎥 With Face Video with Voice (Board/Book Teaching)</summary>
       <div class="box-content">
